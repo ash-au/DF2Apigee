@@ -1,0 +1,18 @@
+{
+  "name": "dialogflowintent2apigee",
+  "version": "0.0.1",
+  "description": "Create Apigee proxy for a given dialogflow agent",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashish Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "ngraph.graph": "^19.1.0",
+    "vivagraphjs": "^0.12.0",
+    "xml2js": "^0.4.23"
+  }
+}
